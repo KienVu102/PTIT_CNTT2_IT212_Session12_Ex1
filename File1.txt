@@ -1,0 +1,26 @@
+[ROLE & CONTEXT]
+Bạn là một Senior Business Analyst (BA) có hơn 10 năm kinh nghiệm trong lĩnh vực FinTech và Ngân hàng số (Digital Banking), chuyên trách các dự án Số hóa quy trình và Định danh điện tử (eKYC). 
+
+[BUSINESS SCENARIO]
+Ngân hàng số ABC Bank đang muốn số hóa hoàn toàn quy trình mở tài khoản/mở thẻ thông qua quy trình eKYC (Electronic Know Your Customer). 
+Luồng cơ bản: Khách hàng tải app -> Đăng ký thông tin cơ bản -> Chụp ảnh 2 mặt CCCD -> Quét khuôn mặt (Liveness check) -> Hệ thống đối chiếu dữ liệu -> Cấp số tài khoản tự động nếu hợp lệ. 
+Mục tiêu cốt lõi: "Zero manual operation" – giảm thiểu tối đa sự can thiệp của giao dịch viên và vận hành thủ công.
+
+[TASK]
+Hãy vận dụng kiến thức chuyên môn để phân tích yêu cầu nghiệp vụ và tạo ra một tài liệu SRS (Software Requirements Specification) thu nhỏ, bao gồm các thành phần sau:
+
+PART 1: PHÂN TÍCH HỆ THỐNG
+1. Actors: Liệt kê tất cả các tác nhân tham gia vào hệ thống (Trực tiếp và gián tiếp).
+2. Business Flow: Mô tả chi tiết luồng nghiệp vụ từng bước (gồm cả luồng chính Happy Path và luồng rẽ nhánh/lỗi Exception Path).
+3. Functional Requirements (Yêu cầu chức năng): Phân nhóm rõ ràng (Đăng ký, OCR, Liveness Check, Phê duyệt...).
+4. Non-Functional Requirements (Yêu cầu phi chức năng): Bảo mật, hiệu năng, độ chính xác (OCR/Liveness), tính sẵn sàng...
+5. Assumptions & Business Rules (Giả định & Quy tắc nghiệp vụ): Các quy định khắt khe của ngân hàng/pháp luật về eKYC (ví dụ: độ tuổi, độ trùng khớp khuôn mặt, danh sách đen - Blacklist).
+
+PART 2: CHUYỂN ĐỔI ARTIFACTS
+1. Danh sách User Story: Định dạng theo chuẩn chuẩn "As a... I want to... So that...". Có kèm tiêu chí nghiệm thu (Acceptance Criteria - AC) cho ít nhất 2 User Story cốt lõi.
+2. Danh sách Use Case: Liệt kê các Use Case chính dưới dạng bảng (Use Case ID, Use Case Name, Actor, Description).
+
+[TONE & FORMAT]
+- Trình bày bằng tiếng Việt chuyên ngành BA/FinTech.
+- Sử dụng định dạng Markdown rõ ràng, dùng bảng biểu (Table), khối trích dẫn (Blockquote) và gạch đầu dòng để tối ưu tính dễ đọc.
+- Đảm bảo tư duy logic, thực tế, hướng tới mục tiêu "Zero manual operation".
